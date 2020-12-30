@@ -1,4 +1,4 @@
-package chapter03;
+package icehs.science.chapter3;
 
 public class MyAgeTest { 
 	public static void main(String[] args) {

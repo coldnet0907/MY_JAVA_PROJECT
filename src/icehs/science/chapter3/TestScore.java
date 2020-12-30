@@ -1,4 +1,4 @@
-package chapter03;
+package icehs.science.chapter3;
 
 public class TestScore {
 	public static void main(String[] args) {
