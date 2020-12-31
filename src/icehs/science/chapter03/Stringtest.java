@@ -1,4 +1,4 @@
-package icehs.science.chapter3;
+package icehs.science.chapter03;
 
 public class Stringtest {
 
