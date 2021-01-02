@@ -3,7 +3,7 @@ package icehs.science.chapter05;
 public class ValuationBasisTest {
 	public static void main(String[] args) {
 		
-		int num1 = 10;
+		int num1 = 12;
 		int num2 = 20;
 		int num3 = 40;
 		int num4 = 50;

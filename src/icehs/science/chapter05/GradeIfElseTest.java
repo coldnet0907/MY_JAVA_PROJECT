@@ -3,7 +3,7 @@ package icehs.science.chapter05;
 public class GradeIfElseTest {
 	public static void main(String[] args) {
 		
-		int grade = 122;
+		int grade = 77;
 		
 		if (grade >= 90 && grade <= 100)
 		{
