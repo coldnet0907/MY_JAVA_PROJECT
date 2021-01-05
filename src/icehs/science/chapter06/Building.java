@@ -1,4 +1,4 @@
-package icehs.sciense.chapter06;
+package icehs.science.chapter06;
 
 public class Building {
 	String name; // ¸â¹ö º¯¼ö
