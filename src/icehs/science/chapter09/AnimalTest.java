@@ -10,5 +10,13 @@ public class AnimalTest {
 		cat.run();
 		cat.hunt();
 		cat.play();
+		
+		System.out.println();
+		
+		Dog d1 = new Dog(2, "矫海府救倾胶虐", "港港捞"); 
+		d1.intro1();
+		d1.intro();
+		d1.run();
+		d1.hunt();
 	}
 }

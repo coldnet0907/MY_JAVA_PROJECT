@@ -22,4 +22,14 @@ public class FundAccount extends Account{
 		System.out.println("수익률 : " + this.earningRate + "%");
 		System.out.println("수익이 발생했습니다.");
 	}
+	
+	@Override
+	public void openAccount()
+	{
+		System.out.println("계좌를 개설합니다.");
+		System.out.print("펀드 ");
+		System.out.println();
+		this.earnMoney();
+	
+	}
 }

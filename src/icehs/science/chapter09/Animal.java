@@ -33,4 +33,9 @@ public class Animal {
 	{
 		System.out.println("´Þ·Á¶ó!!!");
 	}
+	
+	public void hunt()
+	{
+		
+	}
 }

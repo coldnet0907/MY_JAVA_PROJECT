@@ -1,4 +1,4 @@
-package icehs.science.chapter09;
+package icehs.science.chapter10;
 
 public class Teacher extends Person {
 
@@ -7,7 +7,6 @@ public class Teacher extends Person {
 	@Override
 	void eat()
 	{
-		super.eat();
 		System.out.println("È¥ÀÚ ¸Ô½À´Ï´Ù.");
 	}
 	

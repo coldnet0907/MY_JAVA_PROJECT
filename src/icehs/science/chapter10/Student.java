@@ -1,13 +1,13 @@
-package icehs.science.chapter09;
+package icehs.science.chapter10;
 
 public class Student extends Person {
 	
-	private String departMent;
+	String departMent;
 	
 	@Override
 	void eat()
 	{
-		super.eat();
+
 		System.out.println("È¥ÀÚ ¸Ô¾î¿ä.");
 	}
 	

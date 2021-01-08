@@ -13,7 +13,7 @@ public class ProductTest {
 		
 		System.out.println("[공지] 할인율을 모두 15%로 변경합니다.");
 		tong.setDiscountRate(15);
-		tv.setDiscountRate(15));
+		tv.setDiscountRate(15);
 		
 		System.out.println("통돌이 판매가 : " + tong.calculateDiscountPrice());
 	}

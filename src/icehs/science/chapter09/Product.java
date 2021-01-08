@@ -40,7 +40,7 @@ public class Product {
 	
 	public int calculateDiscountPrice()
 	{
-		int result = this.price * (100 + this.discountRate) / 100;
+		int result = this.price * (100 - this.discountRate) / 100;
 		return result;
 	}
 }

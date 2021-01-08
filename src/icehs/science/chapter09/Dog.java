@@ -1,10 +1,10 @@
 package icehs.science.chapter09;
 
-public class Cat extends Animal{
+public class Dog extends Animal{
 
 	public String name;
 
-	public Cat(int age, String kind, String name) {
+	public Dog(int age, String kind, String name) {
 		super(age, kind);
 		this.name = name;
 	}
@@ -25,11 +25,12 @@ public class Cat extends Animal{
 	@Override
 	public void hunt()
 	{
-		System.out.println("쥐를 잡을꺼야!!");
+		System.out.println("순록을 잡아요~");
 	}
 	
-	public void play()
+	@Override
+	public void run()
 	{
-		System.out.println("모빌 놀이가 좋아요~");
+		System.out.println("시속 40km로 뛰어!!!");
 	}
 }
