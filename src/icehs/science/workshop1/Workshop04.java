@@ -43,7 +43,19 @@ public class Workshop04 {
         
         System.out.println("=========================");
         System.out.println("총 구매 금액 : " + totalPrice + "원");
-        
+        if(totalPrice > 30000)
+        {
+        	System.out.println("포인트 적립 : " + totalPrice / 50 + "원");
+        	
+        }
+        else if(totalPrice > 12000)
+        {
+        	System.out.println("포인트 적립 : " + totalPrice / 100 + "원");
+        }
+        else
+        {
+        	System.out.println("포인트가 적립되지 않았습니다.");
+        }
         
     }
     
