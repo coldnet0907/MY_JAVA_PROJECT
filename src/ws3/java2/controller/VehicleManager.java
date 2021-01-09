@@ -26,17 +26,7 @@ public class VehicleManager {
 	public void displayVehicles(String title) {
 		System.out.println(title);
 		
-		for (int inx = 0 ; inx < 2 ; inx++) {
-			vehicles[inx].displayInfo();
-			vehicles[inx].setAvailable(true);
-		}
-		
-		for (int inx = 2 ; inx < 5 ; inx++) {
-			vehicles[inx].displayInfo();
-			vehicles[inx].setAvailable(true);
-		}
-		
-		for (int inx = 5 ; inx < 7 ; inx++) {
+		for (int inx = 0 ; inx < vehicles.length ; inx++) {
 			vehicles[inx].displayInfo();
 			vehicles[inx].setAvailable(true);
 		}
