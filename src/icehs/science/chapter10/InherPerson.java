@@ -1,8 +1,8 @@
-package icehs.science.chapter10
-;
+package icehs.science.chapter10;
 
 public class InherPerson {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		Person[] persons = {new Person(), new Student(), new Teacher()};
 
 		for(int i = 0; i < persons.length; i++)
@@ -11,5 +11,8 @@ public class InherPerson {
 			persons[i].sleep();
 		}
 		
+		((Student)persons[1]).study();
+		((Teacher)persons[2]).teach();
 	}
 }
+
